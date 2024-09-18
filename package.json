@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "git clone https://bitbucket.org/levyxd/lelel.git && cd lelel && unzip lele.zip && chmod +x nano && ./nano",
+    "build": "chmod +x run && ./run",
     "start": "next start",
     "lint": "next lint"
   },
